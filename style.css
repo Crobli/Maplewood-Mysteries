@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 	*{font-family: 'Ubuntu', sans-serif;}
-	
+
+	span{
+		line-height: 20px;
+		color: #333;
+		background-image:repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
+		display: block;
+		flex-grow:9;
+	}
+
 	.pr{
 		border:2px solid black;
 		padding:30px;
@@ -51,7 +59,7 @@
 	}
 	
 	.body .top .profile{
-		width:60%;
+		width:55%;
 		display: flex;
 		flex-wrap: wrap;
 		order:1;
@@ -63,14 +71,28 @@
 
 	.body .top .profile .case,
 	.body .top .profile .player,
-	.body .top .profile .name,
-	.body .top .profile .surname,
 	.body .top .profile .age,
 	.body .top .profile .race,
 	.body .top .profile .eyes,
 	.body .top .profile .hair{
 		width:50%;
 		display:flex;
+	}
+
+	.body .top .profile .case span,
+	.body .top .profile .player span,
+	.body .top .profile .name span,
+	.body .top .profile .surname span,
+	.body .top .profile .age span,
+	.body .top .profile .race span,
+	.body .top .profile .eyes span,
+	.body .top .profile .hair span{
+		padding: 0 20px 0 10px;
+	}
+
+	.body .top .profile .case span,
+	.body .top .profile .player span{
+		font-style:italic;
 	}
 	
 	.body>hr{
