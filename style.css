@@ -1,0 +1,89 @@
+.pr{
+		border:2px solid black;
+		padding:30px;
+		max-width:900px;
+		margin: auto;
+	}
+	
+	.body{
+	}
+	
+	.body .top{
+		width: 100%;
+		padding:50px;
+		display: flex;
+		justify-content: space-between;
+		box-sizing: border-box;
+		flex-wrap: wrap;
+	}
+
+	.body .top .photo{
+		width:40%;
+		order:2;
+		margin-bottom: 30px;
+	}
+	
+	.body .top .photo .polaroid{
+		width:100%;
+		padding-top:6.14%;
+		padding-left:6.14%;
+		padding-right:6.14%;
+		padding-bottom:17.54%;
+		box-sizing: border-box;
+		border: 2px solid black;
+	}
+	
+	.body .top .photo .polaroid .int-photo{
+		width:100%;
+		padding-top:100%;
+		height:0!important;
+		background-size: cover;
+		background-position: center center;
+	}
+	
+	.body .top .profile{
+		width:60%;
+		display: flex;
+		flex-wrap: wrap;
+		order:1;
+	}
+	
+	.body .top .profile div{
+		width:100%;
+	}
+
+	.body .top .profile .case,
+	.body .top .profile .player,
+	.body .top .profile .name,
+	.body .top .profile .surname,
+	.body .top .profile .age,
+	.body .top .profile .race,
+	.body .top .profile .eyes,
+	.body .top .profile .hair{
+		width:50%;
+	}
+	
+	.body>hr{
+		width:100%;
+		order: 3;
+	}
+	
+	.body .bg{
+		padding: 20px 50px 50px;
+		width:100%;
+		order: 4;
+	}
+	@media screen and (max-width: 899px){
+		.pr{
+			max-width: 580;
+			margin:10%;
+		}
+		.body .top .profile,
+		.body .top .photo{
+			width: 100%;
+			order: 1
+		}
+		.body .top .photo{
+			margin-bottom: 30px;
+		}
+	}
