@@ -6,6 +6,7 @@
 		line-height: 20px;
 		color: #333;
 		background-image:repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
+		padding-bottom:2px!important;
 		display: block;
 		flex-grow:9;
 	}
@@ -76,7 +77,6 @@
 	.body .top .profile .eyes,
 	.body .top .profile .hair{
 		width:50%;
-		display:flex;
 	}
 
 	.body .top .profile .case span,
@@ -87,6 +87,7 @@
 	.body .top .profile .race span,
 	.body .top .profile .eyes span,
 	.body .top .profile .hair span{
+		display:flex;
 		padding: 0 20px 0 10px;
 	}
 
