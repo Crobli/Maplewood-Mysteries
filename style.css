@@ -79,6 +79,16 @@
 		width:50%;
 	}
 
+	.body .top .profile .case,
+	.body .top .profile .player,
+	.body .top .profile .name,
+	.body .top .profile .surname,
+	.body .top .profile .age,
+	.body .top .profile .race,
+	.body .top .profile .eyes,
+	.body .top .profile .hair{
+		display:flex;
+}
 	.body .top .profile .case span,
 	.body .top .profile .player span,
 	.body .top .profile .name span,
@@ -87,7 +97,6 @@
 	.body .top .profile .race span,
 	.body .top .profile .eyes span,
 	.body .top .profile .hair span{
-		display:flex;
 		padding: 0 20px 0 10px;
 	}
 
