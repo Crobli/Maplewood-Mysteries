@@ -9,6 +9,11 @@
 		margin: auto;
 	}
 	
+	.pr h1{
+    		font-size: 3.5rem;
+    		text-align: center;
+	}
+
 	.body{
 	}
 	
@@ -65,6 +70,7 @@
 	.body .top .profile .eyes,
 	.body .top .profile .hair{
 		width:50%;
+		display:flex;
 	}
 	
 	.body>hr{
