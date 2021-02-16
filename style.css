@@ -97,7 +97,7 @@
 	.body .top .profile .race span,
 	.body .top .profile .eyes span,
 	.body .top .profile .hair span{
-		padding: 0 20px 0 10px;
+		margin: 0 20px 0 10px;
 	}
 
 	.body .top .profile .case span,
