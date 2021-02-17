@@ -87,6 +87,13 @@
 	.body .top .profile .eyes,
 	.body .top .profile .hair{
 		display:flex;
+	}
+	.body .top .profile .case span,
+	.body .top .profile .player span,
+	.body .top .profile .age span,
+	.body .top .profile .race span,
+	.body .top .profile .eyes span,
+	.body .top .profile .hair span{
 		margin-left:10px;
 	}
 
