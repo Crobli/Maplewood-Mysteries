@@ -97,6 +97,15 @@
 		margin-left:10px;
 	}
 
+	.body .top .profile .name span,
+	.body .top .profile .surname span,
+	.body .top .profile .personality span,
+	.body .top .profile .likes span,
+	.body .top .profile .dislikes span,
+	.body .bg span{
+		margin-top:15px; 
+	}
+
 	.body .top .profile .case span,
 	.body .top .profile .player span,
 	.body .top .profile .name span,
