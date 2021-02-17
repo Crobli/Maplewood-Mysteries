@@ -6,7 +6,7 @@
 		line-height: 20px;
 		color: #333;
 		background-image:repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
-		padding-bottom:2px!important;
+		padding-bottom:17px!important;
 		display: block;
 		flex-grow:9;
 	}
@@ -135,7 +135,7 @@
 	.body .bg{
 		padding: 20px 50px 50px;
 		width:100%;
-		order: 4;
+		box-sizing: border-box;
 	}
 	@media screen and (max-width: 899px){
 		.pr{
