@@ -87,7 +87,9 @@
 	.body .top .profile .eyes,
 	.body .top .profile .hair{
 		display:flex;
-}
+		margin-left:10px;
+	}
+
 	.body .top .profile .case span,
 	.body .top .profile .player span,
 	.body .top .profile .name span,
@@ -95,10 +97,13 @@
 	.body .top .profile .age span,
 	.body .top .profile .race span,
 	.body .top .profile .eyes span,
-	.body .top .profile .hair span{
+	.body .top .profile .hair span,
+	.body .top .profile .personality span,
+	.body .top .profile .likes span,
+	.body .top .profile .dislikes span,
+	.body .bg span{
 		padding-left:5px;
 		padding-right:5px;
-		margin-left:10px
 	}
 
 	.body .top .profile .case span,
