@@ -3,9 +3,9 @@
 	*{font-family: 'Ubuntu', sans-serif;}
 
 	span{
-		line-height: 20px;
+		line-height: 25px;
 		color: #333;
-		background-image:repeating-linear-gradient(180deg, transparent, transparent 19px, #333 20px);
+		background-image:repeating-linear-gradient(180deg, transparent, transparent 24px, #333 25px);
 		padding-bottom:17px!important;
 		display: block;
 		flex-grow:9;
@@ -16,6 +16,7 @@
 		padding:30px;
 		max-width:900px;
 		margin: auto;
+		background-color: #fff!important;
 	}
 	
 	.pr h1{
